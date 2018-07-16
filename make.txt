@@ -1,0 +1,4 @@
+set CGO_ENABLED=0
+set GOARCH=amd64
+set GOOS=freebsd
+go build -ldflags "-s -w" -o output\sscliet ssclient.go
